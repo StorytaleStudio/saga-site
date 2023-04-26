@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    overflow: hidden;
+/*     width: 100vw; */
+/*     height: 80pt; */
+  min-height: 100vh;
+    top: 0;
+    bottom: 0;
+    
+}
+
+html {
+  margin: 0;
+  background: #191919;
+  display: grid;
+  place-items: center center;
+  min-height: 100vh;
+  color: #fafafa;
+  font-family: 'Pirata One', cursive;
+}
+svg path {
+  fill: #fafafa;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+#text1,
+#text2 {
+    position: absolute;
+/*     width: 100%; */
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+  top:50%;
+  left:0;
+  width: 100%;
+}
+.text-wrapper{
+  width: 100%;
+  filter: url(#threshold) blur(0.4px);
+}
+
+a {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 6rem;
+}
