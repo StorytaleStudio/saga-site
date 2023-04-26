@@ -32,6 +32,7 @@ svg path {
 h1 {
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  font-size: 4rem;
 }
 
 #text1,
