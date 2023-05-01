@@ -16,6 +16,10 @@
     
 }
 
+body{
+  margin: 0;
+}
+
 html {
   margin: 0;
   background: #191919;
